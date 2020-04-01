@@ -31,3 +31,38 @@ a {
 
 .l-flex-wrap {
   flex-wrap: wrap; }
+
+.l-sidebar {
+  min-width: 188px; }
+
+.header-buttons {
+  padding: 8px; }
+
+.button-primary {
+  border: 0;
+  background: #47cf73;
+  color: black; }
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center; }
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%; }
+
+.search-form-input {
+  margin-left: 16px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830;
+  border: 0; }
+
+.sidebar {
+  background: #1F1F26; }

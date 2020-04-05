@@ -13,11 +13,6 @@ body {
   box-sizing: border-box;
   color: #FFFFFF; }
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none; }
-
 a {
   text-decoration: none; }
   a a:hover {
@@ -38,6 +33,9 @@ a {
 .l-header {
   display: flex;
   align-items: center; }
+
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
 
 .badge {
   background: #ffdd40;
@@ -62,6 +60,10 @@ a {
   padding: 8px 16px;
   text-align: center; }
 
+.button:hover {
+  opacity: .4;
+  cursor: pointer; }
+
 .button-secondary {
   border: 0;
   background: #444857; }
@@ -83,6 +85,15 @@ a {
   padding: 8px;
   width: 100%; }
 
+.features .card {
+  height: 340px; }
+
+.card {
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px;
+  background: #2c303a; }
+
 .code-card-html {
   position: relative;
   left: 160px;
@@ -91,6 +102,10 @@ a {
 .code-card-body {
   padding: 8px;
   padding-top: 0; }
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px; }
 
 .code-card-js {
   position: relative;
@@ -112,6 +127,45 @@ a {
 
 .code-card-body p {
   margin: 0; }
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between; }
+
+.code-card-body {
+  padding: 8px;
+  padding-top: 0; }
+
+.code-card-body p {
+  margin: 0; }
+
+.hilight-purple {
+  color: #9f8198; }
+
+.hilight-orange {
+  color: #a88038; }
+
+.hilight-green {
+  color: #74b087; }
+
+.hilight-beige {
+  color: #e1ca72; }
+
+.hilight-blue {
+  color: #7a99ad; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
 
 .hero {
   margin: 32px; }
@@ -144,9 +198,6 @@ a {
 
 .text-bold {
   font-weight: bold; }
-
-.cursor {
-  animation: blink 1s infinite; }
 
 .hero-body-image-card {
   margin: 16px auto;
@@ -183,4 +234,33 @@ a {
   margin: .2em;
   font-size: .8em;
   text-align: center;
+  color: #b7bbc8; }
+
+.sidebar-menu-sub-list {
+  margin-bottom: 16px; }
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: none; }
+
+.text-warning {
+  color: #ffdd40; }
+
+.text-primary {
+  color: #47cf73; }
+
+.text-accent {
+  color: #0ebeff; }
+
+.sidebar-menu a {
+  display: block;
+  padding-left: 16px; }
+
+.sidebar-menu-title {
+  font-size: .8rem;
+  margin-bottom: .2rem;
+  margin-left: 16px; }
+
+.text-weak {
   color: #b7bbc8; }

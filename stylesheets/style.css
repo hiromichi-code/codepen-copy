@@ -15,8 +15,9 @@ body {
 
 a {
   text-decoration: none; }
-  a a:hover {
-    cursor: pointer; }
+
+a:hover {
+  cursor: pointer; }
 
 .l-flex {
   display: flex; }
@@ -36,6 +37,12 @@ a {
 
 .l-margin-left-2rem {
   margin-left: 2rem !important; }
+
+.l-section {
+  margin: 32px 0; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
 
 .badge {
   background: #ffdd40;
@@ -85,6 +92,13 @@ a {
   padding: 8px;
   width: 100%; }
 
+.button-outline {
+  display: inline-block;
+  border: 3px solid #aaaebc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  text-align: center; }
+
 .card {
   padding: 2rem;
   width: 360px;
@@ -126,6 +140,11 @@ a {
   background: #2c303a;
   transition: .2s; }
 
+.product-item-card:hover {
+  transform: scale(1.05);
+  opacity: .4;
+  cursor: pointer; }
+
 .product-item-card-body {
   display: flex;
   padding: 16px;
@@ -155,6 +174,51 @@ h3 {
 .product-message-body {
   color: #b7bbc8;
   margin-bottom: 16px; }
+
+.product-item-card-body-avator img {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 100%; }
+
+.product-item-card-body-title {
+  margin-left: 1rem; }
+
+.product-item-card-body {
+  display: flex;
+  padding: 16px;
+  padding-top: 0; }
+
+.product-item-card-body-avator {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px; }
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; }
+
+.product-item-card-body-title p {
+  margin: 0; }
+
+.product-item-card-body-title-text {
+  margin: 0; }
+
+.product-item-card-footer {
+  padding: 8px 16px; }
+
+.product-item-card-footer-card {
+  background: black;
+  border-radius: 4px;
+  margin-right: 4px;
+  padding: 2px 4px; }
+
+.product-item-list-footer {
+  display: flex;
+  justify-content: center; }
 
 .code-card-html {
   position: relative;
@@ -229,6 +293,9 @@ h3 {
   100% {
     opacity: 1; } }
 
+.code-card-header .fa:before {
+  color: #b7bbc8; }
+
 .features .card {
   height: 340px; }
 
@@ -237,6 +304,22 @@ h3 {
 
 .features {
   justify-content: center; }
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black; }
+
+.footer-links h4 {
+  margin: 2px;
+  margin-right: 1rem; }
+
+.footer-links li {
+  margin-right: 1rem; }
+
+.footer-logo {
+  font-size: 2rem; }
 
 .hero {
   margin: 32px; }
@@ -337,4 +420,5 @@ ul {
   color: #b7bbc8; }
 
 .sidebar-menu a:hover {
-  background: black; }
+  background: black;
+  corsor: pointer; }

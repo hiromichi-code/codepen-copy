@@ -85,9 +85,6 @@ a {
   padding: 8px;
   width: 100%; }
 
-.features .card {
-  height: 340px; }
-
 .card {
   padding: 2rem;
   width: 360px;
@@ -211,6 +208,12 @@ h3 {
   100% {
     opacity: 1; } }
 
+.features .card {
+  height: 340px; }
+
+.features-card {
+  margin: 2rem 1rem; }
+
 .hero {
   margin: 32px; }
 
@@ -308,3 +311,6 @@ ul {
 
 .text-weak {
   color: #b7bbc8; }
+
+.sidebar-menu a:hover {
+  background: black; }
